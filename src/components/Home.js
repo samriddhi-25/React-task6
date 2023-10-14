@@ -7,7 +7,7 @@ function Home() {
       <h1 className="home-heading">Hi<span className="emoji">👋</span>,<br/> Welcome!</h1>
       <div class = "vertical"></div>
       <div className="home-content">
-        <p><b>Welcome to my creative world!✌️<br/>I'm Srishti, and I'm passionate about anything and everything.<br/>With a focus on innovation and a commitment to excellence, I'm here to bring your ideas to life.😃</b></p>
+        <p><b>Welcome to my creative world!✌️<br/>I'm Samriddhi, and I'm passionate about literature and web development..<br/>With a focus on innovation and a commitment to excellence, I'm here to bring your ideas to life.😃</b></p>
       </div>
      
       
