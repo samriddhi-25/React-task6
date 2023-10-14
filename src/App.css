@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.navbar {
+    display: flex;
+  justify-content: center;
+    
+    /*background-color: #333;  Replace with your desired background color */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  .nav-list {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    
+    margin: 0 15px;
+  }
+  
+  /* Style the active link */
+  .active {
+    font-weight: bold;
+    color: #007BFF; /* Set the active link color to your desired color */
+  }
+  
+  .nav-list a {
+    
+    color: white; /* Set the default link color to white */
+    font-weight: bold; /* Make the default link text bold */
+  }
+  .nav-list a {
+    text-decoration: none;
+  }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1614854262340-ab1ca7d079c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); /* Replace with the correct path to your image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  }
+  
+  /* App.css */
+/* Add this CSS at the end of your existing styles or in a separate CSS file */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .home-heading {
+    font-size: 8rem; /* Increase the font size to your desired value */
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 70px; /* Align the text to the left */
+    margin-right: 20px;/* Add spacing between the heading and content */
+    font-family: 'Caveat', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+color: white;
+
+  }
+  
+  .home-content {
+    font-family: 'Caveat', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+    padding-top: 70px;
+    font-size: 1.75rem;
+    flex: 1;
+    color: white; /* Allow content to take remaining space */
+    padding-right: 20px;
+    
+  }
+  .emoji {
+    font-size: 8rem; /* Adjust the font size to match the heading text */
+    
+  }
+
+  /* App.css */
+/* Add this CSS at the end of your existing styles or in a separate CSS file */
+
+.about-container {
+    
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  
+  .translucent-box {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value for the desired level of translucency */
+    border-radius: 10px;
+    
+    text-align: center;
+    height:800px;
+    width:900px;
+    padding-bottom: 55px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    margin:50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .box-content {
+    color: #000; /* Text color inside the box */
+  }
+  .about-content{
+    font-size:1.5rem
+  }
+  .about-heading{
+    font-size: 2.5rem;
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+
+  .b{
+    margin: 20px;
+    width:120px;
+    
+  }
+  .vertical {
+    border-left: 3px solid white;
+    height: 350px;
+    position:absolute;
+    left: 50%;
+    padding-top: 50px;
+}
+
+.card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Add this CSS to your stylesheet */
+
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust the overlay color and opacity as needed */
+    display: none;
+    align-items: bottom;
+    justify-content: center;
+  }
+  
+  .card:hover .overlay {
+    display: flex;
+  }
+  
+  .overlay img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+/* Add this CSS to your stylesheet */
+
+.card-link {
+    text-decoration: none; /* Remove the underline from the text */
+  }
+.h22{
+    font-weight: bolder;
+    color: antiquewhite;
+} 
+
+/* App.css
+
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.page-exit-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+*/
+.image{
+    margin-left: 28px;
+  }
+  .linkedin{
+    size: 75%;
+  }
+ 
+  
+  
